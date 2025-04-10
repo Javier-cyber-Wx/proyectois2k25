@@ -19,6 +19,7 @@ using Capa_Vista_Reclutamiento;
 using Capa_Vista_Evaluacion;
 using Capa_Vista_GD;
 using Modelo_Vista_AsistenciaYFaltas;
+using CapaVista; //Capa Examen parcial
 
 namespace Capa_Vista_RRHH
 {
@@ -322,11 +323,25 @@ namespace Capa_Vista_RRHH
             Frm_Evaluacion ev = new Frm_Evaluacion();
             ev.Show();
         }
+        
 
         private void reporteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_Reporte_Evaluacion_Desempenio repo = new Frm_Reporte_Evaluacion_Desempenio();
             repo.Show();    
+        }
+
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Mantenimiento man = new Mantenimiento();
+            man.Show();
+        }
+
+        private void examenParcialToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mantenimiento man = new Mantenimiento();
+            man.Show();
         }
     }
 }

@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CapaVista">
+      <HintPath>..\..\Segundo Examen Parcial\CapaVista\bin\Debug\CapaVista.dll</HintPath>
+    </Reference>
     <Reference Include="Capa_Vista_Anticipos">
       <HintPath>..\..\Nominas2_5\Anticipos\Capa_Vista_Anticipos\bin\Debug\Capa_Vista_Anticipos.dll</HintPath>
     </Reference>
